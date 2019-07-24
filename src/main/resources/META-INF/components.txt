@@ -1,0 +1,4 @@
+org.xwiki.contrib.scriptcomponent.internal.ScriptComponentClassInitializer
+org.xwiki.contrib.scriptcomponent.internal.ScriptComponentExecutor
+org.xwiki.contrib.scriptcomponent.internal.ScriptComponentListener
+org.xwiki.contrib.scriptcomponent.internal.ScriptComponentManager
