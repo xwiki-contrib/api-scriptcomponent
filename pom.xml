@@ -29,9 +29,15 @@
   </parent>
 
   <artifactId>scriptcomponent</artifactId>
-  <name>Script Component</name>
-  <description>Script Component</description>
   <version>1.0-SNAPSHOT</version>
+
+  <name>Script Component</name>
+  <description>Very easily register fast components defined using scripts</description>
+
+  <properties>
+    <xwiki.release.jira.skip>false</xwiki.release.jira.skip>
+    <xwiki.issueManagement.jira.id>SCRIPTCOMP</xwiki.issueManagement.jira.id>
+  </properties>
 
   <dependencies>
     <dependency>
