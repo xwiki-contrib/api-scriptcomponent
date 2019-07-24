@@ -211,8 +211,7 @@ public class ScriptComponentManager
      */
     public void unregisterComponents(XWikiDocument document) throws WikiComponentException
     {
-        BaseObject component =
-            document.getOriginalDocument().getXObject(ScriptComponentClassInitializer.CLASS_REFERENCE);
+        BaseObject component = document.getXObject(ScriptComponentClassInitializer.CLASS_REFERENCE);
 
         if (component != null) {
             List<ComponentDescriptor<?>> components = this.componentIndex.remove(document.getDocumentReference());
