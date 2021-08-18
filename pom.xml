@@ -37,6 +37,8 @@
   <properties>
     <xwiki.release.jira.skip>false</xwiki.release.jira.skip>
     <xwiki.issueManagement.jira.id>SCRIPTCOMP</xwiki.issueManagement.jira.id>
+
+    <xwiki.extension.namespaces>{root}</xwiki.extension.namespaces>
   </properties>
 
   <dependencies>
