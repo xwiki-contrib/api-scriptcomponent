@@ -218,7 +218,7 @@ public class ScriptComponentManager
 
             WikiComponentScope scope = getScope(component);
 
-            if (scope != null) {
+            if (scope != null && components != null) {
                 unregisterComponents(components, scope);
             }
         }
