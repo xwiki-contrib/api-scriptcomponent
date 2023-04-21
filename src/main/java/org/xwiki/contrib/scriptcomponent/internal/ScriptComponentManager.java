@@ -216,10 +216,12 @@ public class ScriptComponentManager
         if (component != null) {
             List<ComponentDescriptor<?>> components = this.componentIndex.remove(document.getDocumentReference());
 
-            WikiComponentScope scope = getScope(component);
+            if (components != null) {
+                WikiComponentScope scope = getScope(component);
 
-            if (scope != null && components != null) {
-                unregisterComponents(components, scope);
+                if (scope != null) {
+                    unregisterComponents(components, scope);
+                }
             }
         }
     }
